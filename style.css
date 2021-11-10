@@ -5,8 +5,9 @@ body {
 h1 {
   color: #5B6C5D;
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   margin-bottom: 0px;
+  margin-top: 0;
   font-family: 'Cormorant Garamond', serif;
 }
 
@@ -27,11 +28,70 @@ h3 {
   font-family: 'Cormorant Garamond', serif;
 }
 
+h4 {
+  text-align: left;
+  font-size: 25px;
+  color: #5B6C5D;
+  text-decoration: underline;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 20px 0 0;
+}
+
+h5 {
+  text-align: left;
+  font-size: 20px;
+  color:black;
+  font-weight: lighter;
+  font-family: 'Cormorant Garamond', serif;
+  margin: 10px 0 0;
+}
+
+.experience-description {
+  font-family: 'Cormorant Garamond', serif;
+  color: gray;
+  font-size: 15px;
+  font-weight: light;
+  margin: 0;
+}
+
 p {
   font-family: 'Cormorant Garamond', serif;
 }
 
-ul {
+.flex {
+  display: flex;
+  justify-content: space-around;
+  background: #C3A995;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+.flex-item {
+  flex: 0 0px 200px;
+  width: max-content;
+  margin: 0 20px 0 0;
+  padding: 0 20px;
+  display: inline
+}
+
+.flex-item > a {
+  font-size: 20px;
+}
+
+#flex-item-logo {
+  align-items: left;
+  margin: 0;
+  display: inline-flex
+}
+
+#flex-item-title {
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+}
+
+.socialmedia-container > ul {
   list-style: none;
   padding: 0;
 }
@@ -50,7 +110,7 @@ ul {
   margin: 0 auto;
 }
 
-li {
+.socialmedia-list {
   display: inline;
   font-size: 30px;
   margin: 20px;
